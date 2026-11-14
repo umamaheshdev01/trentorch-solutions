@@ -18,7 +18,7 @@ def l1_norm(x: np.ndarray) -> float:
 
         ||x||_1 = sum_i(|x_i|)
     """
-    return sum([abs(i) for i in x])
+    return sum(abs(x))
 
 
 def l2_norm(x: np.ndarray) -> float:
