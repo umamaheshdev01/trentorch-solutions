@@ -9,7 +9,7 @@ def dot_product(a: np.ndarray, b: np.ndarray) -> float:
 
     A single scalar, the sum of the elementwise product.
     """
-    return sum([a[i]*b[i] for i in range(len(a))])
+    return sum(a*b)
 
 
 def l1_norm(x: np.ndarray) -> float:
